@@ -5,71 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+        <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     
-    <style>
-            .table{
-                border: 2px none black;
-                margin:200px 400px 100px 500px;
-                padding:35px 30px 35px 30px;
-                border-radius: 15px;
-                background-color: rgb(163, 162, 160);
-                box-shadow: 4px 4px rgb(94, 93, 92);
-               
-            }
-            
-            .button{
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #91ddc1;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  width:70px;
-  height:50px;
-}
-
-.button:hover {background-color: #3e8e41}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-        input[type="text"]
-         {
-         background-color:rgb(230, 250, 216);
-         border: none;
-         width:110%;
-         border-radius: 4px;
-         padding:20px;
-         
-
-
-         }
-         
-        
-       
-            
-    </style>
-    <script>
-   function fun(val){
-    document.getElementById("result").value+=val
-            }
-            function solve()
-         {
-             let x = document.getElementById("result").value
-             let y = eval(x)
-             document.getElementById("result").value = y
-         }
-         function clr()
-         {
-             document.getElementById("result").value = ""
-         }
-    </script>
 </head>
 <body>
   <table class="table">
