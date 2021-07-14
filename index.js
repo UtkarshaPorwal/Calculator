@@ -1,3 +1,4 @@
+function fun(val){
     document.getElementById("result").value+=val
             }
             function solve()
